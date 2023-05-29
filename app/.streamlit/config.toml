@@ -4,3 +4,6 @@ font="monospace"
 
 [browser]
 gatherUsageStats = false
+
+[server]
+fileWatcherType = "poll"
