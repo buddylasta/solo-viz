@@ -24,32 +24,34 @@ with tab1:
 
     ## CKPool Participation Stats
     st.subheader('Participation')
-    p1, p2, p3 = st.columns(3)
+    p1, p2, p3, p4 = st.columns(4)
 
     with p1:
         st.metric('Users', millify(pool_data['Users']))
-        st.metric('Disconnected', millify(pool_data['Disconnected']))
     with p2:
         st.metric('Workers', millify(pool_data['Workers']))
     with p3:
         st.metric('Idle', millify(pool_data['Idle']))
+    with p4:
+        st.metric('Disconnected', millify(pool_data['Disconnected']))
 
     st.divider()
 
     st.subheader('Hashrate')
-    hr1, hr2, hr3 = st.columns(3)
+    hr1, hr2, hr3, hr4 = st.columns(4)
 
     ## CKPool Hashrate 
     with hr1:
         st.metric('Avg Hashrate (1m)', pool_data['hashrate1m'])
         st.metric('Avg Hashrate (6hr)', pool_data['hashrate6hr'])
-        st.metric('Avg Hashrate (1hr)', pool_data['hashrate1hr'])
     with hr2:
         st.metric('Avg Hashrate (5m)', pool_data['hashrate5m'])
         st.metric('Avg Hashrate (1d)', pool_data['hashrate1d'])
     with hr3:
         st.metric('Avg Hashrate (15m)', pool_data['hashrate15m'])
         st.metric('Avg Hashrate (7d)', pool_data['hashrate7d'])
+    with hr4:
+        st.metric('Avg Hashrate (1hr)', pool_data['hashrate1hr'])
 
     st.divider()
 
@@ -75,15 +77,16 @@ with tab2:
         ## User Hashrate
         st.divider()
         st.subheader('Hashrate')
-        hr1, hr2, hr3 = st.columns(3)
+        hr1, hr2, hr3, hr4 = st.columns(4)
         with hr1:
             st.metric('Avg Hashrate (1m)', user_data['hashrate1m'])
             st.metric('Avg Hashrate (7d)', user_data['hashrate7d'])
-            st.metric('Avg Hashrate (1d)', user_data['hashrate1d'])
         with hr2:
             st.metric('Avg Hashrate (5m)', user_data['hashrate5m'])
         with hr3:
             st.metric('Avg Hashrate (1hr)', user_data['hashrate1hr'])
+        with hr4:
+            st.metric('Avg Hashrate (1d)', user_data['hashrate1d'])
 
         st.divider()
         
