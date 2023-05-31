@@ -16,6 +16,11 @@ My first time using [streamlit](https://docs.streamlit.io/library/get-started/ma
   - Run docker container -> `docker run -p 8501:8501 streamlit`
   - To view your app, browse to http://0.0.0.0:8501 or http://localhost:8501
 
+## For more on the dashboard
+  - [Check out my youtube video on it](https://youtu.be/XfvF94boFAM)
+  - [Check out my podcast episode](https://spotifyanchor-web.app.link/e/sedaunPYeAb)
+  - [Check out my newsletter](https://www.jordanlaster.com/the-world-of-bitcoin-solo-mining/)
+
 ## Streamlit Tips and Tricks
 - How to modify configuration file -> [.streamlit/config.toml](https://docs.streamlit.io/library/advanced-features/configuration#set-configuration-options)
 - To view all available configuration options: `streamlit config show`

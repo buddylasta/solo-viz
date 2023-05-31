@@ -117,3 +117,7 @@ with tab3:
         Feel free to contribute to the repo, fork it,
         or make your own changes.
     """)
+    st.header('For more information...')
+    st.markdown("""
+        Check out [my youtube video on this dashboard](https://youtu.be/XfvF94boFAM)
+    """)
