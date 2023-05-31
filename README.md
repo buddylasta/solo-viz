@@ -19,7 +19,7 @@ My first time using [streamlit](https://docs.streamlit.io/library/get-started/ma
 ## Streamlit Tips and Tricks
 - How to modify configuration file -> [.streamlit/config.toml](https://docs.streamlit.io/library/advanced-features/configuration#set-configuration-options)
 - To view all available configuration options: `streamlit config show`
-- Use [caching](https://docs.streamlit.io/library/advanced-features/caching) for functions that return data
+- Use [caching](https://docs.streamlit.io/library/advanced-features/caching) for functions that return data (Data is cached here for 5mins)
 - [Chart Elements](https://docs.streamlit.io/library/api-reference#chart-elements)
 
 ### Deploying Streamlit App
