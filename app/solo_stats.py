@@ -104,7 +104,7 @@ with tab2:
 
 
 with tab3:
-    st.header('Support Me')
+    st.header('Support')
     st.markdown("""
     If you find this streamlit app useful, consider 
     [supporting me with a few sats](https://strike.me/buddylasta/) 

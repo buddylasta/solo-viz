@@ -3,17 +3,20 @@ import requests
 import pandas as pd
 import json
 
+@st.cache_data(ttl=300)
 def get_user_data(url):
     response = requests.get(url)
     json_data = response.json()
     return json_data
 
 # Create dataframe from ckpool data
+@st.cache_data(ttl=300)
 def load_pool_data(pool_data):
     df = pd.read_json(pool_data, orient='index')
     return df
 
 # Get ckpool data
+@st.cache_data(ttl=300)
 def get_pool_data(url):
     response = requests.get(url)
 
