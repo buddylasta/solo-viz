@@ -110,3 +110,10 @@ with tab3:
     [supporting me with a few sats](https://strike.me/buddylasta/) 
     and [check out my website](https://www.jordanlaster.com).
     """)
+    st.header('Run Locally')
+    st.markdown("""
+        Want to run this app on your own machine or in a docker container? [Check
+        out the github repo](https://github.com/buddylasta/solo-viz).
+        Feel free to contribute to the repo, fork it,
+        or make your own changes.
+    """)
