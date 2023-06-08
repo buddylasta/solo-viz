@@ -37,3 +37,8 @@ It works in 3 simple steps:
     - Click 'Deploy an app' and then paste in your GitHub URL
 
 Click to learn more about [how to use Streamlit Community Cloud.](https://docs.streamlit.io/streamlit-community-cloud)
+
+## To Do
+- [] Show how many blocks have been solo mined
+- [] Show when someone solo mines and solves a block
+  - [BTC.com](https://btc.com/stats/pool/Solo%20CK) currently shows the info above, but idk anything about them

@@ -57,7 +57,7 @@ with tab1:
 
     ## Raw Data
     st.subheader('Raw Data')
-    st.json(pool_data)
+    st.json(body=pool_data, expanded=False)
 
 # User Stats
 with tab2:
@@ -92,7 +92,7 @@ with tab2:
         
         ## Raw Data
         st.subheader('Raw Data')
-        st.json(user_data)
+        st.json(body=user_data, expanded=False)
     
     ## Chance of solo mining a block
     st.divider()
